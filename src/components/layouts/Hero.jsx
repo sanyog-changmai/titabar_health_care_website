@@ -41,7 +41,7 @@ const Hero = () => {
 	return (
 		<Container maxW="6xl" px="4" py="6">
 			<Flex
-				mt="5rem"
+				mt={["2rem", "5rem"]}
 				justify="space-between"
 				flexWrap={["wrap", "nowrap"]}
 				direction={["column", "column", "row"]}
